@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibrant Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Vibrant Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#tags">Tags</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Vibrant Blog</h2>
+            <p>Your go-to place for engaging and vibrant content. Explore, learn, and enjoy!</p>
+            <a href="#blog" class="btn">Explore Blog</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate writers who aim to bring you the most vibrant and engaging content on a variety of topics. From travel tips to tech reviews, we have something for everyone!</p>
+        </div>
+    </section>
+
+    <section id="featured-post" class="featured-post">
+        <div class="container">
+            <h2>Featured Post</h2>
+            <article class="blog-post">
+                <img src="https://via.placeholder.com/600x400" alt="Featured Post">
+                <div class="blog-content">
+                    <h3>Discover the Best Coffee Shops in Town</h3>
+                    <p>Explore our top picks for the best coffee shops in the city. From cozy corners to trendy spots, find your next favorite café!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <img src="https://via.placeholder.com/400x250" alt="Blog Post 1">
+                    <div class="blog-content">
+                        <h3>Exploring the Hidden Gems of the City</h3>
+                        <p>Discover the lesser-known spots in the city that are worth visiting. Uncover hidden treasures and unique experiences!</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <img src="https://via.placeholder.com/400x250" alt="Blog Post 2">
+                    <div class="blog-content">
+                        <h3>The Ultimate Guide to Weekend Getaways</h3>
+                        <p>Looking for a quick escape from the daily grind? Check out our guide to the best weekend getaways near you!</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <img src="https://via.placeholder.com/400x250" alt="Blog Post 3">
+                    <div class="blog-content">
+                        <h3>Top 10 Books to Read This Summer</h3>
+                        <p>Get your reading list ready with our top picks for books to read during the summer. Find your next great read!</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+                <!-- Add more blog posts here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="search" class="search">
+        <div class="container">
+            <h2>Search the Blog</h2>
+            <form>
+                <input type="text" placeholder="Search..." required>
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="recent-comments" class="recent-comments">
+        <div class="container">
+            <h2>Recent Comments</h2>
+            <div class="comments">
+                <div class="comment">
+                    <p><strong>Anik Shaikh</strong> This is such a great post! I learned a lot from it. Thanks for sharing!</p>
+                </div>
+                <div class="comment">
+                    <p><strong>Harsh Vekariya</strong> I totally agree with your points. Looking forward to more articles like this.</p>
+                </div>
+                <div class="comment">
+                    <p><strong>Jaimin</strong> I love the tips you’ve provided. Will definitely try them out!</p>
+                </div>
+                <!-- Add more comments here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="tags" class="tags">
+        <div class="container">
+            <h2>Explore by Tags</h2>
+            <div class="tag-cloud">
+                <a href="#">Travel</a>
+                <a href="#">Lifestyle</a>
+                <a href="#">Health</a>
+                <a href="#">Technology</a>
+                <a href="#">Food</a>
+                <a href="#">Books</a>
+                <a href="#">Fashion</a>
+                <a href="#">Fitness</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Enter your email..." required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="social-media" class="social-media">
+        <div class="container">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><img src="https://via.placeholder.com/40x40?text=FB" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="https://via.placeholder.com/40x40?text=TW" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="https://via.placeholder.com/40x40?text=IG" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="https://via.placeholder.com/40x40?text=YT" alt="YouTube"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vibrant Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="scroll-top" title="Go to Top">&#8679;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
